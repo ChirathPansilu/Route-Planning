@@ -13,8 +13,8 @@ set(LIBRARY_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/lib")
 
 # Locate project prerequisites
 find_package(io2d REQUIRED)
-find_package(Cairo)
-find_package(GraphicsMagick)
+find_package(unofficial-cairo)
+find_package(unofficial-graphicsmagick)
 
 # Set IO2D flags
 set(IO2D_WITHOUT_SAMPLES 1)
