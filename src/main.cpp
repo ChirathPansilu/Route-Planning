@@ -50,7 +50,7 @@ int main(int argc, const char **argv)
         if( !data )
             std::cout << "Failed to read." << std::endl;
         else
-            osm_data = std::move(*data);
+            osm_data = std::move(*data);        // Get the value of std::optional<> with *operator
     }
     
     // TODO: Declare floats `start_x`, `start_y`, `end_x`, and `end_y` and get
